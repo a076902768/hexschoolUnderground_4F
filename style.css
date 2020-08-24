@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  border: solid 1px black;
+  font-family: "微軟正黑體";
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #E5E5E5;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.title {
+  width: 540px;
+  height: 98px;
+  position: absolute;
+  top: 72px;
+  left: 373px;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  border: none;
+  border-top: solid 10px black;
+  border-bottom: solid 10px black;
+}
+
+.box {
+  position: absolute;
+  top: 202px;
+  left: 370px;
+}
+.box .content_box {
+  width: 540px;
+  height: 104px;
+  font-weight: bold;
+  background-color: white;
+}
+.box .content_box .name {
+  position: absolute;
+  width: 196px;
+  height: 49px;
+  top: 16px;
+  left: 40px;
+  font-size: 36px;
+  border: none;
+}
+.box .content_box .day {
+  position: absolute;
+  width: 96px;
+  height: 22px;
+  top: 66px;
+  left: 40px;
+  font-size: 16px;
+  font-style: Italic;
+  border: none;
+}
+.box .content_box .time {
+  width: 185px;
+  height: 98px;
+  position: absolute;
+  top: 3px;
+  left: 315px;
+  font-size: 72px;
+  border: none;
+}
+
+.content_box#NY, .content_box#SN {
+  background-color: black;
+  color: white;
+}
